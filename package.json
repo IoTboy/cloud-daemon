@@ -1,0 +1,25 @@
+{
+  "name": "cloud-daemon",
+  "version": "1.0.0",
+  "description": "Cloud daemon that reads data from mongo db for each interval, defined in config.json, and sends it to cloud.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "cloud",
+    "commercial",
+    "iot"
+  ],
+  "author": "Intel",
+  "license": "MIT",
+  "dependencies": {
+    "intel-commercial-iot-ibm-bluemix-storage": "latest",
+    "intel-commercial-iot-microsoft-azure-storage": "latest",
+    "intel-commerical-edge-network-database-models": "^1.0.7",
+    "intel-commerical-iot-database-models": "^1.0.23",
+    "lodash": "^3.10.1",
+    "winston": "^1.1.1"
+  }
+}
