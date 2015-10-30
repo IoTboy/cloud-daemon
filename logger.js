@@ -41,7 +41,7 @@ var logger = new (winston.Logger)({
             silent: false,
             colorize: true,
             timestamp: true,
-            filename: './microsoft-azure-storage.log',
+            filename: './cloud-daemon.log',
             maxsize: 400000,
             maxFiles: 10,
             json: false

@@ -17,9 +17,9 @@
   "dependencies": {
     "intel-commercial-iot-ibm-bluemix-storage": "latest",
     "intel-commercial-iot-microsoft-azure-storage": "latest",
-    "intel-commerical-edge-network-database-models": "^1.0.7",
-    "intel-commerical-iot-database-models": "^1.0.23",
-    "lodash": "^3.10.1",
-    "winston": "^1.1.1"
+    "intel-commerical-edge-network-database-models": "latest",
+    "lodash": "latest",
+    "mongoose": "latest",
+    "winston": "latest"
   }
 }
